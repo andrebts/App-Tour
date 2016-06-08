@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tour</string>
+    <string name="btn_skip">SKIP</string>
+    <string name="btn_done">DONE</string>
+
+    <string name="tour_head_01">Help your users</string>
+    <string name="tour_content_01">Show information about your app in a good looking and straightforward way to improve the understanding of your users.</string>
+    <string name="tour_head_02">Make awesome transitions</string>
+    <string name="tour_content_02">Update the images and its location settings to perform incredible transitions that will wonder anyone who sees it.</string>
+    <string name="tour_head_03">Keep it simple</string>
+    <string name="tour_content_03">Verify the your tour a number of times to make sure that you kept it as simple as possible. The information shown on it should be succinct.</string>
+</resources>

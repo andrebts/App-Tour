@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tour</string>
+    <string name="btn_done">PRONTO</string>
+    <string name="btn_skip">PULAR</string>
+    <string name="tour_content_01">Mostre informações sobre o seu app de uma forma bonita e simples para melhorar a compreensão dos seus usuários.</string>
+    <string name="tour_head_01">Auxilie seus usuários</string>
+    <string name="tour_head_02">Faça transições legais</string>
+    <string name="tour_head_03">Mantenha a simplicidade</string>
+    <string name="tour_content_02">Atualize as imagens e suas definições de localização para executar transições incríveis que irão deslumbrar quem vê-las.</string>
+    <string name="tour_content_03">Verifique se o seu tour várias vezes para se certificar de que você o manteve tão simples quanto possível. O conteúdo exibido nele deve ser sucinto.</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:background="#3467d6" >
+
+    <FrameLayout
+        android:id="@+id/images"
+        android:layout_width="@dimen/welcome_images_size"
+        android:layout_height="@dimen/welcome_images_size"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/welcome_images_margin_top"
+        android:clipChildren="false">
+        <ImageView
+            android:id="@+id/img_1_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/image1_0"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/img_1_1"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image1_1"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/img_1_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerInside"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/image1_2"
+            android:layout_gravity="left|top"/>
+        
+        <ImageView 
+            android:id="@+id/img_1_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerInside"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/image1_3"
+            android:layout_gravity="left|top"/>
+        <ImageView 
+            android:id="@+id/img_1_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerInside"
+            android:layout_marginTop="112dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/image1_4"
+            android:layout_gravity="left|top"/>
+
+        <ImageView
+            android:id="@+id/img_1_5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerInside"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/image1_5"
+            android:layout_gravity="right|center_vertical"/>
+
+        <ImageView
+            android:id="@+id/img_1_6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerInside"
+            android:layout_marginTop="75dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/image1_6"
+            android:layout_gravity="right|center_vertical" />
+
+        <ImageView
+            android:id="@+id/img_1_7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="80dp"
+            android:src="@drawable/image1_7"
+            android:layout_gravity="right|bottom" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/heading"
+        android:text="@string/tour_head_01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/images"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/welcome_heading"
+        android:layout_marginRight="@dimen/welcome_heading"
+        android:textAppearance="@style/WelcomeHeadingAppearance" />
+
+    <TextView
+        android:id="@+id/content"
+        android:text="@string/tour_content_01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/images"
+        android:layout_below="@+id/heading"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="@dimen/welcome_text_margin"
+        android:layout_marginRight="@dimen/welcome_text_margin"
+        android:minHeight="@dimen/welcome_content_min_height"
+        android:gravity="center|top"
+        android:textAppearance="@style/WelcomeContentAppearance" />
+
+</RelativeLayout>

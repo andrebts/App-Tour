@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:background="#0f9d58" >
+
+    <FrameLayout
+        android:id="@+id/images"
+        android:layout_width="@dimen/welcome_images_size"
+        android:layout_height="@dimen/welcome_images_size"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:clipChildren="false">
+        <ImageView
+            android:id="@+id/img_3_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/image3_0"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/img_3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/image3_1"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="70dp"/>
+
+        <ImageView
+            android:id="@+id/img_3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="90dp"
+            android:src="@drawable/image3_2"
+            android:layout_gravity="right|bottom"/>
+
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/heading"
+        android:text="@string/tour_head_03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/images"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/welcome_heading"
+        android:layout_marginRight="@dimen/welcome_heading"
+        android:textAppearance="@style/WelcomeHeadingAppearance" />
+
+    <TextView
+        android:id="@+id/content"
+        android:text="@string/tour_content_03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading"
+        android:gravity="center|top"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:minHeight="@dimen/welcome_content_min_height"
+        android:textAppearance="@style/WelcomeContentAppearance"  />
+
+</RelativeLayout>
