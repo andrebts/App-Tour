@@ -5,9 +5,9 @@ The aim of this project is to serve as basis to build apps that require Tour as 
 
 Screenshots
 -------
-<a href="url"><img src=./art/Screenshot_2016-06-08-12-30-10.png height="550"  ></a>
-<a href="url"><img src=./art/Screenshot_2016-06-08-12-30-06.png height="550"  ></a>
-<a href="url"><img src=./art/Screenshot_2016-06-08-12-30-15.png height="550"  ></a>
+<a href="url"><img src=./art/Screenshot_2016-06-08-12-30-10.png height="400"  ></a>
+<a href="url"><img src=./art/Screenshot_2016-06-08-12-30-06.png height="400"  ></a>
+<a href="url"><img src=./art/Screenshot_2016-06-08-12-30-15.png height="400"  ></a>
 
 Me
 -------
